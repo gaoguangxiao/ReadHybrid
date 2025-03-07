@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2A1B44CA-C95D-BD64-31FE-C59BD4E36F9B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CheckUpdate.cs">
+    <Files>
+      <File FileName="Assets/LoadDll.cs" Line="16" Column="6" />
+      <File FileName="Assets/HotUpdate/Hello.cs" />
+      <File FileName="Assets/CoreMessage/MC.cs" />
+      <File FileName="Assets/Scripts/CheckUpdate.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/NetManager.cs" />
+      <File FileName="Assets/CoreMessage/MySingletonBase.cs" />
+      <File FileName="Assets/CoreMessage/ManagerBase.cs" />
+      <File FileName="Assets/ConsoleToScreen.cs" />
+      <File FileName="Assets/Scripts/BridgeScript.cs" />
+      <File FileName="Assets/CoreMessage/Message.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReadRS" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CoreMessage" expanded="True" />
+              <Node name="Scripts" expanded="True" />
+              <Node name="LoadDll.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5529e408-d9bb-4d0f-8e5d-f2b7dd1c2767" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
