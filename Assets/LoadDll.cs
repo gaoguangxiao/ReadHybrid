@@ -22,16 +22,16 @@ public class LoadDll : MonoBase
         //Application.streamingAssetsPath("");
 #if !UNITY_EDITOR
         //Assembly hotUpdateAss = Assembly.Load(File.ReadAllBytes($"{Application.streamingAssetsPath}/HotUpdate.dll.bytes"));
-     
-        string persistentDataPath = Application.persistentDataPath;
-        string libraryPath = Path.Combine(persistentDataPath, "..", "Library");
+
+        string temporaryCachePath = Application.temporaryCachePath;
+        string webResourcePath = Path.Combine(temporaryCachePath, "WebResource");
         // 确保目录存在
-        if (!Directory.Exists(libraryPath))
+        if (!Directory.Exists(webResourcePath))
         {
-            Directory.CreateDirectory(libraryPath);
+            Directory.CreateDirectory(webResourcePath);
         }
 
-        string hotUpdatePath = libraryPath + "/Caches/WebResource/pkg" + "/static/1/HotUpdate.dll.bytes";
+        string hotUpdatePath = webResourcePath + "/pkg/static/1/HotUpdate.dll.bytes";
 
         Debug.Log("hotUpdatePath" + hotUpdatePath);
         Assembly hotUpdateAss = Assembly.Load(File.ReadAllBytes($"hotUpdatePath"));
@@ -46,7 +46,7 @@ public class LoadDll : MonoBase
 
     private void OnDestroy()
     {
-        Debug.Log("CheckUpdate OnDestroy");
+        Debug.Log("LoadDll OnDestroy");
         NetManager.Instance.UnRegister(this);
     }
 

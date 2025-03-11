@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LoadDll.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CheckUpdate.cs">
     <Files>
-      <File FileName="Assets/Scripts/CheckUpdate.cs" Line="30" Column="61" />
-      <File FileName="Assets/ConsoleToScreen.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BridgeScript.cs" Line="126" Column="6" />
-      <File FileName="Assets/LoadDll.cs" Line="34" Column="1" />
-      <File FileName="Assets/Scripts/NetManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CheckUpdate.cs" Line="71" Column="28" />
+      <File FileName="Assets/ConsoleToScreen.cs" />
+      <File FileName="Assets/Scripts/BridgeScript.cs" />
+      <File FileName="Assets/LoadDll.cs" Line="47" Column="6" />
+      <File FileName="Assets/Scripts/NetManager.cs" />
+      <File FileName="Assets/HotUpdate/Hello.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReadHybrid" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="HotUpdate" expanded="True" />
               <Node name="Scripts" expanded="True" />
-              <Node name="LoadDll.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5529e408-d9bb-4d0f-8e5d-f2b7dd1c2767" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6b50a44b-83c4-4dfb-8c86-134ecc3b6766" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
