@@ -7,6 +7,22 @@
       "dependencies": {},
       "hash": "8e571d594d20d86a68753b54a71959c252b55577"
     },
+    "com.elringus.naninovel": {
+      "version": "file:com.elringus.naninovel",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.video": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.9",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "9.1.3",
       "depth": 1,
@@ -194,8 +210,8 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.7",
-      "depth": 0,
+      "version": "3.0.9",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"

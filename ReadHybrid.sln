@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Runtime", "Elringus.Naninovel.Runtime.csproj", "{85999E26-E52E-E9A6-F773-9467D2B6E45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.Editor", "Elringus.Naninovel.Editor.csproj", "{EF4E19B4-5684-446D-DEA3-4779638E534D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotUpdate", "HotUpdate.csproj", "{AC4DAA62-1C8F-A0FF-7954-A685CB6BA254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.Naninovel.E2E", "Elringus.Naninovel.E2E.csproj", "{1E692338-ADF2-60BA-08E9-B0AB0C7D1841}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}"
 EndProject
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85999E26-E52E-E9A6-F773-9467D2B6E45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85999E26-E52E-E9A6-F773-9467D2B6E45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85999E26-E52E-E9A6-F773-9467D2B6E45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85999E26-E52E-E9A6-F773-9467D2B6E45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4E19B4-5684-446D-DEA3-4779638E534D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4E19B4-5684-446D-DEA3-4779638E534D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4E19B4-5684-446D-DEA3-4779638E534D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4E19B4-5684-446D-DEA3-4779638E534D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC4DAA62-1C8F-A0FF-7954-A685CB6BA254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC4DAA62-1C8F-A0FF-7954-A685CB6BA254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4DAA62-1C8F-A0FF-7954-A685CB6BA254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4DAA62-1C8F-A0FF-7954-A685CB6BA254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E692338-ADF2-60BA-08E9-B0AB0C7D1841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E692338-ADF2-60BA-08E9-B0AB0C7D1841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E692338-ADF2-60BA-08E9-B0AB0C7D1841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E692338-ADF2-60BA-08E9-B0AB0C7D1841}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU

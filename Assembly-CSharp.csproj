@@ -60,16 +60,17 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.52f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/LoadDll.cs" />
     <Compile Include="Assets/CoreMessage/MonoBase.cs" />
     <Compile Include="Assets/Scripts/CheckUpdate.cs" />
-    <Compile Include="Assets/ConsoleToScreen.cs" />
+    <Compile Include="Assets/Scripts/ConsoleToScreen.cs" />
     <Compile Include="Assets/Scripts/BridgeScript.cs" />
     <Compile Include="Assets/CoreMessage/ManagerBase.cs" />
     <Compile Include="Assets/Scripts/NetManager.cs" />
     <Compile Include="Assets/CoreMessage/MC.cs" />
+    <Compile Include="Assets/Navinovel/ReadStart.cs" />
     <Compile Include="Assets/CoreMessage/NomalSingletonBase.cs" />
     <Compile Include="Assets/CoreMessage/MySingletonBase.cs" />
-    <Compile Include="Assets/LoadDll.cs" />
     <Compile Include="Assets/HybridCLRGenerate/AOTGenericReferences.cs" />
     <Compile Include="Assets/CoreMessage/Message.cs" />
   </ItemGroup>
@@ -436,6 +437,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Naninovel.Common">
+      <HintPath>Packages/com.elringus.naninovel/Plugins/Naninovel.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -1132,6 +1137,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Elringus.Naninovel.Editor.csproj">
+      <Project>{EF4E19B4-5684-446D-DEA3-4779638E534D}</Project>
+      <Name>Elringus.Naninovel.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Elringus.Naninovel.Runtime.csproj">
+      <Project>{85999E26-E52E-E9A6-F773-9467D2B6E45A}</Project>
+      <Name>Elringus.Naninovel.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

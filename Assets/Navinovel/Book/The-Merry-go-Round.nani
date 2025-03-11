@@ -1,0 +1,23 @@
+@back 0 id:The-Merry-go-Round wait:false
+@hideUI MainCanvas
+The Merry-go-Round
+Story by Beverley Randell
+Illustrations by Serena Geddes
+“Come here, James,” said Dad.
+“Come here, Kate. Come here, Nick.
+Here is a merry-go-round.”
+Look at James. James is up on a cow.
+Look at Kate. Kate is up on a duck.
+Dad said, “Here is a car, Nick.”
+“No!” said Nick.
+Dad said, “Here is a plane, Nick.”
+“No!” said Nick.
+“A horse! Look! A horse!” said Nick.
+“Here is a horse.”
+James is up on a cow.
+Kate is up on a duck.
+Nick is up on a horse.
+
+;切换主脚本
+@goto NaninovelG
+@stop

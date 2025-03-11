@@ -1,0 +1,9 @@
+@back 1 id:bg
+@hideUI TitleUI
+@hidePrinter Book
+@printer Book
+@spawn Snow
+; 展示控制demo面板
+@showUI MainCanvas
+
+@stop

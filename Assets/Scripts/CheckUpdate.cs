@@ -27,7 +27,6 @@ public class CheckUpdate : MonoBase
         Dictionary<string, object> paramsDicts = new Dictionary<string, object>();
         paramsDicts.Add("type", "1");
         paramsDicts.Add("item", "config.json");
-        paramsDicts.Add("path","/unity/config/");//将资源下载至某目录
         paramsDicts.Add("progressAction", "checkUpdate");
         Message message = new Message(MessageType.Type_plug, MessageType.loadPkg, paramsDicts);
         BridgeScript.Instance.CallApp(message);
@@ -57,9 +56,9 @@ public class CheckUpdate : MonoBase
 
     }
 
-    public void OnSkipCheckUpdate()
+    public void OnSkipCheckUpdate(int index)
     {
-        StartCoroutine(LoadScene(1));
+        StartCoroutine(LoadScene(index));
     }
 
     //接受`BridgeScript`回调
@@ -71,8 +70,9 @@ public class CheckUpdate : MonoBase
             Debug.Log("loadpkg complete：" + message.Data);
             //ResponseLodPkg
             //进入主界面
-            StartCoroutine(LoadScene(1));
+            //StartCoroutine(LoadScene(1));
 
+            proText.text = "更新完毕，选择场景进入";
         } else if(message.Command == "checkUpdate")
         {
             //计算mes的进度
@@ -91,7 +91,7 @@ public class CheckUpdate : MonoBase
     //加载完毕
     IEnumerator LoadScene(int index)
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(1);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(index);
         operation.completed += OnLoadScene;
         yield return operation;
     }

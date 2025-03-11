@@ -1,0 +1,20 @@
+; @hideUI TitleUI
+@back 0 id:Tiger !wait
+Tiger is asleep.
+@hideUI MainCanvas
+Mother Monkey is asleep.
+Baby Monkey is asleep
+Baby Monkey wakes up.
+Here comes Baby Monkey.
+Baby Monkey is hungry.
+Tiger wakes up.
+Tiger is hungry.
+Mother Monkey wakes up.
+Baby Monkey!
+Come up here!
+Come up here!
+Here comes Tiger!
+Baby Monkey is up in the tree.
+@goto NaninovelG
+Baby Monkey is safe.
+@stop

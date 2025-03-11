@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LearnBookScene.unity
     guid: 912540b2d982847c1aae7d141705f6e6
   - enabled: 1
+    path: Assets/Scenes/HotUpdateScene.unity
+    guid: 2de759cf3aeb542768d91e4f2f572bd7
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
