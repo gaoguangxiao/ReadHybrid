@@ -63,6 +63,7 @@
     <Compile Include="Assets/Scripts/LoadDll.cs" />
     <Compile Include="Assets/CoreMessage/MonoBase.cs" />
     <Compile Include="Assets/Scripts/CheckUpdate.cs" />
+    <Compile Include="Assets/Scripts/SceneControl.cs" />
     <Compile Include="Assets/Scripts/ConsoleToScreen.cs" />
     <Compile Include="Assets/Scripts/BridgeScript.cs" />
     <Compile Include="Assets/CoreMessage/ManagerBase.cs" />
@@ -431,16 +432,16 @@
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Naninovel.Common">
+      <HintPath>Packages/com.elringus.naninovel/Plugins/Naninovel.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="LZ4">
       <HintPath>Library/PackageCache/com.code-philosophy.hybridclr@8e571d594d/Plugins/LZ4.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Naninovel.Common">
-      <HintPath>Packages/com.elringus.naninovel/Plugins/Naninovel.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">

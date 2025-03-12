@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{D94AD580-677F-0C41-E8EF-ECA2F6A9DAA4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadDll.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Navinovel/ReadStart.cs">
     <Files>
-      <File FileName="Assets/Scripts/CheckUpdate.cs" Line="10" Column="25" />
-      <File FileName="Assets/ConsoleToScreen.cs" />
-      <File FileName="Assets/Scripts/BridgeScript.cs" />
-      <File FileName="Assets/LoadDll.cs" Line="43" Column="38" />
+      <File FileName="Assets/Scripts/CheckUpdate.cs" Line="62" Column="8" />
+      <File FileName="Assets/Scripts/BridgeScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/NetManager.cs" Line="20" Column="1" />
-      <File FileName="Assets/HotUpdate/Hello.cs" Line="11" Column="45" />
-      <File FileName="Assets/Scripts/ReadStart.cs" Line="19" Column="10" />
-      <File FileName="Assets/HotUpdate/Print.cs" Line="10" Column="49" />
+      <File FileName="Assets/HotUpdate/Hello.cs" />
+      <File FileName="Assets/HotUpdate/Print.cs" />
+      <File FileName="Assets/Scripts/UIControl.cs" Line="25" Column="1" />
+      <File FileName="Assets/Navinovel/ReadStart.cs" Line="31" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +15,10 @@
           <Node name="ReadHybrid" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="HotUpdate" expanded="True" />
-              <Node name="Navinovel" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="LoadDll.cs" selected="True" />
+              <Node name="Navinovel" expanded="True">
+                <Node name="ReadStart.cs" selected="True" />
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6b50a44b-83c4-4dfb-8c86-134ecc3b6766" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6be47a12-0c8b-44a6-961b-3913ca649c33" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

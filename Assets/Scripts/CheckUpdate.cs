@@ -56,10 +56,10 @@ public class CheckUpdate : MonoBase
 
     }
 
-    public void OnSkipCheckUpdate(int index)
-    {
-        StartCoroutine(LoadScene(index));
-    }
+    //public void OnSkipCheckUpdate(int index)
+    //{
+    //    StartCoroutine(LoadScene(index));
+    //}
 
     //接受`BridgeScript`回调
     public override void ReceiveMessage(Message message)
@@ -89,18 +89,18 @@ public class CheckUpdate : MonoBase
     }
 
     //加载完毕
-    IEnumerator LoadScene(int index)
-    {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(index);
-        operation.completed += OnLoadScene;
-        yield return operation;
-    }
+    //IEnumerator LoadScene(int index)
+    //{
+    //    AsyncOperation operation = SceneManager.LoadSceneAsync(index);
+    //    operation.completed += OnLoadScene;
+    //    yield return operation;
+    //}
 
-    //加载完成
-    private void OnLoadScene(AsyncOperation obj)
-    {
-        Debug.Log("load finish");
-    }
+    ////加载完成
+    //private void OnLoadScene(AsyncOperation obj)
+    //{
+    //    Debug.Log("load finish");
+    //}
 
 }
 
