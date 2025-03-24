@@ -6,7 +6,6 @@ using Newtonsoft.Json.Linq;
 using AOT;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
-using Unity.VisualScripting;
 
 //桥接响应，其中收到的`data`为字符串
 public class BridgeResponseObject

@@ -67,7 +67,7 @@ public class CheckUpdate : MonoBase
         Debug.Log("CheckUpdate ReceiveMessage：" + message.Command);
         if (message.Command == MessageType.loadPkg)
         {
-            Debug.Log("loadpkg complete：" + message.Data);
+            //Debug.Log("loadpkg complete：" + message.Data);
             //ResponseLodPkg
             //进入主界面
             //StartCoroutine(LoadScene(1));

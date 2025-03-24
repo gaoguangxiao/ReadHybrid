@@ -15,7 +15,7 @@ public class LoadDll : MonoBase
     void Start()
     {
 
-        NetManager.Instance.Register(this);
+        //NetManager.Instance.Register(this);
 
         // Editor环境下，HotUpdate.dll.bytes已经被自动加载，不需要加载，重复加载反而会出问题。
         //要访问`Documents`文件夹，可以使用`Application.persistentDataPath`方法，该方法返回一个适用于特定平台的文件路径，在iOS上这个路径指向`Document`
@@ -45,13 +45,4 @@ public class LoadDll : MonoBase
 
         //CheckUpdate
     }
-
-    private void OnDestroy()
-    {
-        Debug.Log("LoadDll OnDestroy");
-        NetManager.Instance.UnRegister(this);
-    }
-
-    //获取客户端存储的更新路径
-
 }
